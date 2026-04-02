@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings version="2">
+    <category label="General">
+        <group label="Service Settings">
+            <setting id="enabled" type="boolean" label="Enable Subtitle Service" default="true">
+                <help>Enable or disable automatic subtitle fetching for Sabri Maranan episodes</help>
+            </setting>
+            <setting id="auto_select" type="boolean" label="Auto-select Subtitles" default="true">
+                <help>Automatically select subtitles when episode starts playing</help>
+            </setting>
+            <setting id="cache_subs" type="boolean" label="Cache Subtitles" default="true">
+                <help>Cache downloaded subtitles for faster playback on repeat views</help>
+            </setting>
+        </group>
+    </category>
+</settings>
