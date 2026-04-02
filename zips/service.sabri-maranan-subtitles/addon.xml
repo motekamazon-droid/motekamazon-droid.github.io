@@ -11,12 +11,8 @@
         <language></language>
         <platform>all</platform>
         <license>GPL-2.0</license>
-        <forum></forum>
         <website>https://github.com/motekamazon-droid/sabri-maranan-subtitles</website>
-        <email></email>
         <source>https://github.com/motekamazon-droid/sabri-maranan-subtitles</source>
-        <news></news>
-        <help></help>
         <assets>
         </assets>
     </extension>
