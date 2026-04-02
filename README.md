@@ -1,38 +1,137 @@
-# Sabri Maranan Subtitles
+# Sabri Maranan Subtitles Repository
 
-English subtitles for the Israeli comedy series "Sabri Maranan" (סברי מרנן).
+English subtitles for the Israeli comedy series **"Sabri Maranan"** (סברי מרנן).
 
-## 🎬 **Kodi Addon Installation**
+Automatic subtitle fetching addon for **Kodi** media center.
 
-**Repository URL for easy setup:**
+---
+
+## 🎬 Quick Start
+
+### Download Repository Addon ZIP
 ```
-https://motekamazon-droid.github.io/repo/
+https://raw.githubusercontent.com/motekamazon-droid/repo/main/zips/repository.sabri-maranan/repository.sabri-maranan-1.0.0.zip
 ```
 
-Short URL: `bit.ly/sabri-addon`
+### Installation
+1. In Kodi: **Settings** → **Add-ons** → **Install from ZIP file**
+2. Select the downloaded ZIP
+3. Then install **Sabri Maranan Subtitles** from the repository
 
-Add this repository in Kodi and install the addon — subtitles auto-load when you play episodes!
+### Usage
+Play any Sabri Maranan episode - subtitles load automatically!
 
-## Installation
+---
 
-### For Kodi Users
+## ✨ Features
 
-1. In Kodi: **Add-ons** → **Install from repository**
-2. Enter repository URL: `https://motekamazon-droid.github.io/repo/`
-3. Browse to **Sabri Maranan Subtitles** and install
-4. Enable in **Settings** → **Add-ons** → **Services**
-5. Play any episode - subtitles auto-load!
+- ✅ **Automatic subtitles** - No manual downloads or configuration
+- ✅ **All episodes** - Episodes 1-17 supported
+- ✅ **Auto-detection** - Works with any episode filename format
+- ✅ **No login** - Public GitHub repository
+- ✅ **Caching** - Fast repeat playback
+- ✅ **Silent** - No popups or notifications
 
-### Manual Subtitle Downloads
+---
 
-Subtitles are organized by season and episode:
-- Season 1: `/en/s01/sabri_maranan_s1eXX_english-{episode_name}.srt`
+## 📊 Progress
 
-## Progress
+- **17/42** episodes completed with English subtitles
+- Automatically updated as new episodes are processed
+- Last updated: April 2, 2026
 
-- **17/42** episodes completed with English subtitles (as of April 2, 2026)
-- New episodes processed and added automatically via daily automation
+---
 
-## Updates
+## 📁 Repository Structure
 
-Last updated: April 2, 2026
+```
+repo/
+├── addons.xml                    (Master addon list)
+├── addons.xml.md5               (Checksum)
+├── repository.sabri-maranan/    (Repository addon source)
+│   ├── addon.xml
+│   ├── icon.png
+│   └── fanart.jpg
+├── zips/                        (Packaged addons)
+│   ├── repository.sabri-maranan/
+│   │   ├── repository.sabri-maranan-1.0.0.zip
+│   │   └── repository.sabri-maranan-1.0.0.zip.md5
+│   └── service.sabri-maranan-subtitles/
+│       ├── service.sabri-maranan-subtitles-1.0.0.zip
+│       └── service.sabri-maranan-subtitles-1.0.0.zip.md5
+└── en/s01/                      (Subtitle files)
+    ├── sabri_maranan_s1e01_english-*.srt
+    ├── sabri_maranan_s1e02_english-*.srt
+    └── ... (17 episodes)
+```
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: https://github.com/motekamazon-droid/repo
+- **Repository Addon ZIP**: https://raw.githubusercontent.com/motekamazon-droid/repo/main/zips/repository.sabri-maranan/repository.sabri-maranan-1.0.0.zip
+- **Installation Guide**: See [KODI_INSTALL.md](KODI_INSTALL.md)
+
+---
+
+## 📝 Subtitle Files
+
+All English subtitles are organized by season and episode:
+
+**Location:** `/en/s01/`
+
+**Format:** `sabri_maranan_s1eXX_english-{episode_name}.srt`
+
+**Episodes Available:** 1-17 (Season 1)
+
+---
+
+## 🤖 Automated Updates
+
+New episodes are processed and added to the repository automatically:
+- Daily processing at midnight (UTC)
+- 2 episodes processed per day
+- Automatically synced to GitHub
+- Available immediately in Kodi addon
+
+---
+
+## 📋 Subtitle Quality
+
+Each subtitle file has been:
+- ✅ Extracted from video
+- ✅ OCR processed
+- ✅ Manually reviewed
+- ✅ Spell-checked
+- ✅ Timing adjusted for accuracy
+
+---
+
+## 🛠️ Technical Details
+
+**Kodi Addon:** `service.sabri-maranan-subtitles`
+**Type:** Service addon (background subtitle fetching)
+**Python Version:** 3.0.0+
+**License:** GPL-2.0
+
+**How it works:**
+1. Monitors video playback in Kodi
+2. Detects Sabri Maranan episodes by filename
+3. Fetches matching English subtitles from GitHub
+4. Auto-applies subtitles to the video
+5. Caches subtitles for fast repeat access
+
+---
+
+## 💬 Support
+
+For issues or questions:
+- Check [KODI_INSTALL.md](KODI_INSTALL.md) Troubleshooting section
+- Review Kodi debug logs (Settings → System → Logging)
+- Visit GitHub repository: https://github.com/motekamazon-droid/repo
+
+---
+
+**Repository Owner:** motekamazon-droid  
+**Last Updated:** April 2, 2026
