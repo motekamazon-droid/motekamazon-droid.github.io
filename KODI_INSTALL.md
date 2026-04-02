@@ -7,9 +7,9 @@
 1. Open **Kodi Settings** → **Add-ons** → **Install from repository**
 2. Add new repository with this URL:
    ```
-   bit.ly/sabri-addon
+   https://raw.githubusercontent.com/motekamazon-droid/repo/main/
    ```
-   (Or long form: `https://github.com/motekamazon-droid/sabri-maranan-subtitles/raw/main/repo/`)
+   (Shortened: `bit.ly/sabri-addon`)
 3. Browse to **Sabri Maranan Subtitles** and install
 4. Enable the addon in **Settings** → **Add-ons** → **Services**
 5. Play any Sabri Maranan episode — subtitles auto-load!
@@ -45,9 +45,9 @@ Works with these patterns:
 
 **For manual install (if needed):**
 ```
-https://github.com/motekamazon-droid/sabri-maranan-subtitles/raw/main/repo/
+https://raw.githubusercontent.com/motekamazon-droid/repo/main/
 ```
 
 ---
 
-**Repository**: https://github.com/motekamazon-droid/sabri-maranan-subtitles
+**Repository**: https://github.com/motekamazon-droid/repo
